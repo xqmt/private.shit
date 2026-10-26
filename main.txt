@@ -6741,7 +6741,7 @@ return (function(U,K,K,K,K)
 			end;
 			K.e=function()
 				local R,_,N=K.load("a"),K.load("c"),K.load("d");
-				local h=N:window({title="juju.lol",script="juju.lol",folder="jujuroblox",key="Insert",spectators=true,share={put=_.share_put,get=_.share_get}});
+				local h=N:window({title="Pandora",script="Pandora.lol",folder="Pandoraroblox",key="Insert",spectators=true,share={put=_.share_put,get=_.share_get}});
 				_={lib=N,win=h,tabs={aim=h:tab({name="aim",icon="crosshair"}),trigger=h:tab({name="trigger",icon="trigger"}),visuals=h:tab({name="visuals",icon="eye"}),misc=h:tab({name="misc",icon="gear"}),skins=h:tab({name="skins",icon="skins"})},finish=function()
 					local F=N.els;
 					for t=1,#F,1 do 
