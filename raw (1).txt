@@ -663,7 +663,7 @@ if setthreadidentity then
 end
 
 local ad = ac:CreateWindow{
-    Title = 'zaml',
+    Title = 'symbol.hit',
     Icon = (function()
         for ad, ae in ipairs{
             'zaml/zaml.png',
@@ -681,7 +681,7 @@ local ad = ac:CreateWindow{
         return 'crosshair'
     end)(),
     IconSize = 38,
-    Author = 'by amaz',
+    Author = '',
     Folder = 'zaml/bloxstrike',
     Size = (function()
         local ad, ae = 900, 560
