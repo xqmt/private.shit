@@ -6529,7 +6529,7 @@ bj:Toggle{
     end,
 }
 bj:Toggle{
-    Title = 'wall penetration check',
+    Title = 'Auto wall',
     Value = true,
     Flag = 'rageAutowall',
     Callback = function(bk)
