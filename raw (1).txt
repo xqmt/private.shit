@@ -664,7 +664,7 @@ end
 
 local ad = ac:CreateWindow{
     Title = 'pandora.lol',
-    Icon = "rbxassetid://119483110756214",
+    Icon = "rbxassetid://86615413737120",
     IconSize = 38,
     Author = '',
     Folder = 'zaml/bloxstrike',
@@ -686,7 +686,7 @@ local ad = ac:CreateWindow{
     MinSize = Vector2.new(420, 260),
     MaxSize = Vector2.new(8192, 8192),
     Theme = 'Black',
-    Transparent = false,
+    Transparent = true,
     Acrylic = true,
     OutlineTransparency = 0,
     OutlineThickness = 1.5,
