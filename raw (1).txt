@@ -664,22 +664,7 @@ end
 
 local ad = ac:CreateWindow{
     Title = 'pandora.lol',
-    Icon = (function()
-        for ad, ae in ipairs{
-            'zaml/zaml.png',
-            'zaml.png',
-        }do
-            if isfile and isfile(ae) then
-                local af, ag = pcall(getcustomasset, ae)
-
-                if af and ag then
-                    return ag
-                end
-            end
-        end
-
-        return 'crosshair'
-    end)(),
+    Icon = "rbxassetid://119483110756214",
     IconSize = 38,
     Author = '',
     Folder = 'zaml/bloxstrike',
@@ -700,15 +685,15 @@ local ad = ac:CreateWindow{
     end)(),
     MinSize = Vector2.new(420, 260),
     MaxSize = Vector2.new(8192, 8192),
-    Theme = 'Aurora',
-    Transparent = true,
+    Theme = 'Black',
+    Transparent = false,
     Acrylic = true,
     OutlineTransparency = 0,
-    OutlineThickness = 1,
+    OutlineThickness = 1.5,
     OutlineAnimated = true,
     OutlineSpeed = 90,
     SideBarWidth = 200,
-    HideSearchBar = false,
+    HideSearchBar = true,
     ScrollBarEnabled = true,
     ToggleKey = Enum.KeyCode.K,
     NewElements = false,
@@ -718,7 +703,7 @@ local ad = ac:CreateWindow{
         OnlyMobile = true,
         DragHandle = false,
         IconSize = 30,
-        StrokeThickness = 1,
+        StrokeThickness = 1.5,
         OutlineAnimated = true,
         OutlineSpeed = 90,
     },
