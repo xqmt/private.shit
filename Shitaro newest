@@ -6629,7 +6629,7 @@ end;
 return cF;
 end;
 D.e=function()local j,h,b=D.load("a"),D.load("c"),D.load("d");
-local K=b:window({title="shitaro crack by boars",script="shitaro.lol",folder="shitaroblox",key="Insert",spectators=true,share={put=h.share_put,get=h.share_get}});
+local K=b:window({title="shitaro",script="shitaro.lol",folder="shitaroblox",key="Insert",spectators=true,share={put=h.share_put,get=h.share_get}});
 h={lib=b,win=K,tabs={aim=K:tab({name="aim",icon="crosshair"}),trigger=K:tab({name="trigger",icon="trigger"}),visuals=K:tab({name="visuals",icon="eye"}),misc=K:tab({name="misc",icon="gear"}),skins=K:tab({name="skins",icon="skins"})},finish=function()local S=b.els;
 for o=1,#S,1 do
     S[o]:fire();
