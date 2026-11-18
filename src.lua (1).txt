@@ -4046,7 +4046,7 @@ function(moduleContext, premiumTarget, premiumFlag)
     end
     A, V = Bo(1, 13, 8)
     a("ImageLabel", {Name = B(), Size = UDim2.fromOffset(16, 16), BackgroundTransparency = 1, Image = u("code"), ImageColor3 = v.dim, ImageTransparency = 0, LayoutOrder = 1, ScaleType = Enum.ScaleType.Fit, ZIndex = 4}, V)
-    a("TextLabel", {Name = B(), AutomaticSize = Enum.AutomaticSize.X, Size = UDim2.fromOffset(0, 20), BackgroundTransparency = 1, Font = Enum.Font.GothamMedium, Text = "shitaro", TextColor3 = v.text, TextSize = 14, TextTransparency = 0.05, LayoutOrder = 2, ZIndex = 4}, V)
+    a("TextLabel", {Name = B(), AutomaticSize = Enum.AutomaticSize.X, Size = UDim2.fromOffset(0, 20), BackgroundTransparency = 1, Font = Enum.Font.GothamMedium, Text = "shitaro.lol", TextColor3 = v.text, TextSize = 14, TextTransparency = 0.05, LayoutOrder = 2, ZIndex = 4}, V)
     local A, A = Bo(2, 13, 8)
     local V = a("ImageLabel", {Name = B(), Size = UDim2.fromOffset(22, 22), BackgroundColor3 = v.bg, BackgroundTransparency = 0.3, BorderSizePixel = 0, Image = ((K.logo ~= "") and K.logo) or string.format("rbxthumb://type=AvatarHeadShot&id=%d&w=150&h=150", T.UserId), ImageTransparency = 0.02, LayoutOrder = 10, ScaleType = Enum.ScaleType.Crop, ZIndex = 4}, A)
     a("UICorner", {CornerRadius = UDim.new(1, 0)}, V)
