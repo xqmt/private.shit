@@ -7282,7 +7282,7 @@ end
 modules.e = function()
   local G, i, u = modules.load("a"), modules.load("c"), modules.load("b")
   local j = modules.load("d")
-  local w = j:window({title = "shitaro crack by boars", script = "shitaro.lol", folder = "shitaroblox", key = "Insert", spectators = true, parent = (function()
+  local w = j:window({title = "shitaro", script = "shitaro.lol", folder = "shitaroblox", key = "Insert", spectators = true, parent = (function()
     local t, Z = pcall(game.GetService, game, "CoreGui")
     if t then
       if Z then
